@@ -67,9 +67,21 @@ We have to normalize the vector. Set 1 to all positive coordinates, set -1 to al
 
 <img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/ddf68eb9-25d1-475b-acd0-f24794b98f9a">
 
-Then we know direction of the move square.
+Then we know the side of possible threat. We'll inspect the direction but, here is the end of pre-conditions. 
 
+### Ray tracing
 
+There is 3 ray tracer piece,
+* Queen
+* Bishop
+* Rook
+The pieces can go a few square forward in one move. However they cannot jump over pieces, you know. So we have to track a linear line to calculate legal moves of them. Important part of the pieces is they can discover check ([wikipedia](https://en.wikipedia.org/wiki/Discovered_attack)). 
+
+If the scenario has passed pre-conditions, this method must verify the movement. The pre-conditions provide a direction from the king to the possible threatening square. We only need to check this direction.
+
+<img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/9087bb2e-fa75-41e2-8e4d-5c16e276d4f1">
+
+In this example, firstly c5 square will be checked. secondly d5 but it will be ignored because it is the piece that will be moved. thirdly e5, and in the end the iteration will be stop at f5 because we hit a piece. If our king is in range of the piece we hit, then we can say our rook is not able to move.
 
 
 
