@@ -35,7 +35,7 @@ Refers to a state in chess where neither player can checkmate the opponent due t
 #### Fifty-move rule
 A chess regulation that declares a draw if no captures are made and no pawn is moved within the last fifty moves, preventing excessively long games and ensuring progress in the gameplay.([wikipedia](https://en.wikipedia.org/wiki/Fifty-move_rule))
 
-### Fivefold Repetition Rule
+#### Fivefold Repetition Rule
 The fivefold repetition rule requires the arbiter to intervene and declare the game drawn if the same position occurs five times, needing no claim by the players. ([wikipedia](https://en.wikipedia.org/wiki/Threefold_repetition#:~:text=By%20contrast%2C%20the%20fivefold%20repetition,no%20claim%20by%20the%20players.))
 
 ### Must be standalone
@@ -75,6 +75,7 @@ There is 3 ray tracer piece,
 * Queen
 * Bishop
 * Rook
+
 The pieces can go a few square forward in one move. However they cannot jump over pieces, you know. So we have to track a linear line to calculate legal moves of them. Important part of the pieces is they can discover check ([wikipedia](https://en.wikipedia.org/wiki/Discovered_attack)). 
 
 If the scenario has passed pre-conditions, this method must verify the movement. The pre-conditions provide a direction from the king to the possible threatening square. We only need to check this direction.
@@ -82,7 +83,3 @@ If the scenario has passed pre-conditions, this method must verify the movement.
 <img width="400" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/9087bb2e-fa75-41e2-8e4d-5c16e276d4f1">
 
 In this example, firstly c5 square will be checked. secondly d5 but it will be ignored because it is the piece that will be moved. thirdly e5, and in the end the iteration will be stop at f5 because we hit a piece. If our king is in range of the piece we hit, then we can say our rook is not able to move to d7.
-
-
-
-
