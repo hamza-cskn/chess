@@ -11,19 +11,19 @@ Chess looks like easy to code. However, I can say it is not. It has strange exce
 
 #### En Passant
 A unique chess rule allowing a pawn to capture an opponent's pawn as it moves forward two squares from the starting position, preventing potential exploitation and adding tactical possibilities to the game. ([wikipedia](https://en.wikipedia.org/wiki/Rules_of_chess#En_passant))
-<img width="289" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/41d89812-54d2-4626-a265-9170fdbe0b5e">
+<img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/41d89812-54d2-4626-a265-9170fdbe0b5e">
 ![Ajedrez_animación_en_passant](https://github.com/hamza-cskn/chess/assets/36128276/3d3b5748-54d7-455d-9ae0-11dc34b8e782)
 
 #### Promotions
 The rule in chess where a pawn can be promoted to any other piece upon reaching the opposite end of the board, providing an opportunity to enhance its power and strategic options.([wikipedia](https://en.wikipedia.org/wiki/Rules_of_chess#Promotion))
-![phpFSZHst](https://github.com/hamza-cskn/chess/assets/36128276/3d266c05-d963-4a9f-8e75-680af4282c68)
+<img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/3d266c05-d963-4a9f-8e75-680af4282c68">
 
 #### King cannot stay threatened
 A fundamental chess principle that states if the king is in check, the player must make a move that removes the threat; failure to do so would result in an illegal position.
 
 #### Castling
 A strategic maneuver in chess where the king and one of the rooks move together to establish the king's safety, involving a unique set of rules governing their movement and ensuring the king's protection. ([wikipedia](https://en.wikipedia.org/wiki/Rules_of_chess#Castling))
-![long-castle-in-chess](https://github.com/hamza-cskn/chess/assets/36128276/f6be45cd-5328-444e-a00f-fcc6ef158489)
+<img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/f6be45cd-5328-444e-a00f-fcc6ef158489">
 
 #### Dead Position
 Refers to a state in chess where neither player can checkmate the opponent due to insufficient material or the inability to create a winning position, resulting in a draw. ([wikipedia](https://en.wikipedia.org/wiki/Rules_of_chess#Dead_position))
