@@ -45,7 +45,7 @@ Validating a chess move does not matter alone. The engine is a core library and 
 
 ### Pre-conditions
 
-We can understand are any 2 square on same linear (diagonal, horizontal or vertical) line. Using only math functions. (We're using them because they are fast.)
+We can understand are any 2 square on same linear (diagonal, horizontal or vertical) line using only math functions. (We're using them because they are fast.)
 
 <img width="400" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/75c6cb48-2e8b-4ff3-805b-16a2c42f201e">
 
