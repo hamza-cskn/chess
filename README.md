@@ -30,7 +30,7 @@ A strategic maneuver in chess where the king and one of the rooks move together 
 #### Dead Position
 Refers to a state in chess where neither player can checkmate the opponent due to insufficient material or the inability to create a winning position, resulting in a draw. ([wikipedia](https://en.wikipedia.org/wiki/Rules_of_chess#Dead_position))
 
-<img width="236" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/5c6e46e0-f6bf-46ef-9213-c5d8b68fe592">
+<img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/5c6e46e0-f6bf-46ef-9213-c5d8b68fe592">
 
 #### Fifty-move rule
 A chess regulation that declares a draw if no captures are made and no pawn is moved within the last fifty moves, preventing excessively long games and ensuring progress in the gameplay.([wikipedia](https://en.wikipedia.org/wiki/Fifty-move_rule))
@@ -44,3 +44,31 @@ Validating a chess move does not matter alone. The engine is a core library and 
 ## How it works?
 
 ### Pre-conditions
+
+We can understand are any 2 square on same linear (diagonal, horizontal or vertical) line. Using only math functions. (We're using them because they are fast.)
+
+<img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/75c6cb48-2e8b-4ff3-805b-16a2c42f201e">
+
+**Vertical Check** - if (x1 === x2) then two square are on same vertical line.
+**Horizontal Check** - if (y1 === y2) then two square are on same horizontal line.
+**Diagonal Check** - if (abs(x1 - x2) === abs(y1 - y2)) then two square are on same diagonal line.
+
+If any piece and its king are not on same linear line, then that is impossible to create any threat to its king. Otherwise we have to check target direction and king direction. If they are not vertical axes, then that is impossible to create any threat to its king.
+
+<img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/4d3bee07-f8b5-439f-87df-d04f22ec12cf">
+
+then Otherwise, if the piece and its king are on same linear line, then we need a vector from king to piece. 
+
+<img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/13012301-1b25-4759-8459-ef79c6a09e21">
+
+We have to normalize the vector. Set 1 to all positive coordinates, set -1 to all negative coordinates, leave 0 to all 0 coordinates of it.
+
+<img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/ddf68eb9-25d1-475b-acd0-f24794b98f9a">
+
+Then we know direction of the move square.
+
+
+
+
+
+
