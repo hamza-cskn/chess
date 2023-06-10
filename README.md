@@ -49,9 +49,11 @@ We can understand are any 2 square on same linear (diagonal, horizontal or verti
 
 <img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/75c6cb48-2e8b-4ff3-805b-16a2c42f201e">
 
-**Vertical Check** - if (x1 === x2) then two square are on same vertical line.
-**Horizontal Check** - if (y1 === y2) then two square are on same horizontal line.
-**Diagonal Check** - if (abs(x1 - x2) === abs(y1 - y2)) then two square are on same diagonal line.
+* **Vertical Check** - if (x1 === x2) then two square are on same vertical line.
+
+* **Horizontal Check** - if (y1 === y2) then two square are on same horizontal line.
+
+* **Diagonal Check** - if (abs(x1 - x2) === abs(y1 - y2)) then two square are on same diagonal line.
 
 If any piece and its king are not on same linear line, then that is impossible to create any threat to its king. Otherwise we have to check target direction and king direction. If they are not vertical axes, then that is impossible to create any threat to its king.
 
