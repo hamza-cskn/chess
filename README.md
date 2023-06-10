@@ -12,7 +12,6 @@ Chess looks like easy to code. However, I can say it is not. It has strange exce
 #### En Passant
 A unique chess rule allowing a pawn to capture an opponent's pawn as it moves forward two squares from the starting position, preventing potential exploitation and adding tactical possibilities to the game. ([wikipedia](https://en.wikipedia.org/wiki/Rules_of_chess#En_passant))
 
-<img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/41d89812-54d2-4626-a265-9170fdbe0b5e">
 <img width="200" alt="image" src="https://github.com/hamza-cskn/chess/assets/36128276/3d3b5748-54d7-455d-9ae0-11dc34b8e782">
 
 #### Promotions
