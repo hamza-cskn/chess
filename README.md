@@ -4,7 +4,7 @@ Well-optimized chess move validation engine. (under development)
 ## Understanding responsibilities of chess validation engine
 
 ### Must be fast
-Chess engines(I mean engines finds best moves) like Stockfish and AI softwares like AlphaZero, have to calculate billions of legal moves. So, one of the responsibilities of a chess validation engine is working fast.
+Chess engines(I mean engines which finds best moves) like Stockfish and AI softwares like AlphaZero, have to calculate billions of legal moves. So, one of the responsibilities of a chess validation engine is working fast.
 
 ### Must care exceptions
 Chess looks like easy to code. However, I can say it is not. It has strange exceptions that makes me tired. Let's see rules of the chess.
