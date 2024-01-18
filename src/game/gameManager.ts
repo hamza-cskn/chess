@@ -1,9 +1,9 @@
-import Board from '../board/board'
-import Color from '../color'
-import Move from './move'
-import Square from '../pointlike/square'
-import Piece from '../pieces/piece'
-import {CheckData} from "../board/checkData";
+import Board from '../board/board.ts'
+import Color from '../color.ts'
+import Move from './move.ts'
+import Square from '../pointlike/square.ts'
+import Piece from '../pieces/piece.ts'
+import {CheckData} from "../board/checkData.ts";
 
 abstract class GameManager {
     public readonly board!: Board

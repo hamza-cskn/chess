@@ -1,10 +1,10 @@
-import PieceType from './pieceType'
-import Square from '../pointlike/square'
-import Board from '../board/board'
-import Vector from '../pointlike/vector'
-import ChessContext from './chessContext'
-import CheckProxy from './check/checkproxy'
-import Color from '../color'
+import PieceType from './pieceType.ts'
+import Square from '../pointlike/square.ts'
+import Board from '../board/board.ts'
+import Vector from '../pointlike/vector.ts'
+import ChessContext from './chessContext.ts'
+import CheckProxy from './check/checkproxy.ts'
+import Color from '../color.ts'
 
 export default class Piece {
     public readonly type: PieceType

@@ -1,8 +1,8 @@
-import PieceType from './pieceType'
-import Square from '../pointlike/square'
-import {areThereObstaclesLinearly, crossIteration, perpendicularIteration} from '../chessc'
-import Vector from '../pointlike/vector'
-import ChessContext from './chessContext'
+import PieceType from './pieceType.ts'
+import Square from '../pointlike/square.ts'
+import {areThereObstaclesLinearly, crossIteration, perpendicularIteration} from '../chessc.ts'
+import Vector from '../pointlike/vector.ts'
+import ChessContext from './chessContext.ts'
 
 class Queen implements PieceType {
     public static readonly instance: Queen = new Queen()

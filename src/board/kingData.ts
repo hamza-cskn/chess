@@ -1,9 +1,9 @@
-import {MoveListener} from "./moveListener";
-import Color from "../color";
-import Square from "../pointlike/square";
-import Move from "../game/move";
-import Piece from "../pieces/piece";
-import Board from "./board";
+import {MoveListener} from "./moveListener.ts";
+import Color from "../color.ts";
+import Square from "../pointlike/square.ts";
+import Move from "../game/move.ts";
+import Piece from "../pieces/piece.ts";
+import Board from "./board.ts";
 
 export class KingData implements MoveListener {
     private _king: Piece | undefined = undefined

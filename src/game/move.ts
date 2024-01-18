@@ -1,4 +1,4 @@
-import Square from '../pointlike/square'
+import Square from '../pointlike/square.ts'
 
 /**
  * You can call it halfmove.

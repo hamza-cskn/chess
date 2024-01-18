@@ -1,6 +1,6 @@
-import Square from '../pointlike/square'
-import ChessContext from './chessContext'
-import Vector from '../pointlike/vector'
+import Square from '../pointlike/square.ts'
+import ChessContext from './chessContext.ts'
+import Vector from '../pointlike/vector.ts'
 
 export default interface PieceType {
 

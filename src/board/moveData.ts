@@ -1,8 +1,8 @@
-import Move from "../game/move";
-import Color from "../color";
-import {MoveListener} from "./moveListener";
-import Piece from "../pieces/piece";
-import Board from "./board";
+import Move from "../game/move.ts";
+import Color from "../color.ts";
+import {MoveListener} from "./moveListener.ts";
+import Piece from "../pieces/piece.ts";
+import Board from "./board.ts";
 
 export class MoveData implements MoveListener {
     private _halfmoveCounter: number = 0;

@@ -1,12 +1,12 @@
-import GameManager from '../game/gameManager'
-import Move from '../game/move'
-import Square from '../pointlike/square'
-import Color from '../color'
-import PieceType from '../pieces/pieceType'
-import Board from '../board/board'
-import {CheckData} from "../board/checkData";
+import GameManager from '../game/gameManager.ts'
+import Move from '../game/move.ts'
+import Square from '../pointlike/square.ts'
+import Color from '../color.ts'
+import PieceType from '../pieces/pieceType.ts'
+import Board from '../board/board.ts'
+import {CheckData} from "../board/checkData.ts";
 
-const readlineSync = require('readline-sync')
+import readlineSync from 'readline-sync'
 
 export default class CliGameImpl extends GameManager {
     private static readonly whitePieceUnicodes = new Map()

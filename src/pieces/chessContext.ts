@@ -1,6 +1,6 @@
-import Board from '../board/board'
-import Color from '../color'
-import Square from '../pointlike/square'
+import Board from '../board/board.ts'
+import Color from '../color.ts'
+import Square from '../pointlike/square.ts'
 
 export default class ChessContext {
     public readonly board: Board

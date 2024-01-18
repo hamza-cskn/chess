@@ -1,5 +1,5 @@
-import Pointlike from './pointlike'
-import Vector from './vector'
+import Pointlike from './pointlike.ts'
+import Vector from './vector.ts'
 
 export default class Square implements Pointlike {
     public readonly x: number

@@ -1,7 +1,7 @@
-import Piece from "../pieces/piece";
-import Move from "../game/move";
-import Color from "../color";
-import Board from "./board";
+import Piece from "../pieces/piece.ts";
+import Move from "../game/move.ts";
+import Color from "../color.ts";
+import Board from "./board.ts";
 
 export interface MoveListener {
     /**

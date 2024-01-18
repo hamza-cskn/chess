@@ -1,9 +1,9 @@
-import PieceType from './pieceType'
-import Square from '../pointlike/square'
-import ChessContext from './chessContext'
-import Vector from '../pointlike/vector'
-import Util from '../util'
-import Piece from './piece'
+import PieceType from './pieceType.ts'
+import Square from '../pointlike/square.ts'
+import ChessContext from './chessContext.ts'
+import Vector from '../pointlike/vector.ts'
+import Util from '../util.ts'
+import Piece from './piece.ts'
 
 class King implements PieceType {
     public static readonly instance: King = new King()

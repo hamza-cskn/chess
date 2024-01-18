@@ -1,7 +1,7 @@
-import PieceType from './pieceType'
-import Square from '../pointlike/square'
-import ChessContext from './chessContext'
-import Vector from '../pointlike/vector'
+import PieceType from './pieceType.ts'
+import Square from '../pointlike/square.ts'
+import ChessContext from './chessContext.ts'
+import Vector from '../pointlike/vector.ts'
 
 class Knight implements PieceType {
     public static readonly instance: Knight = new Knight()

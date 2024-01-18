@@ -1,10 +1,10 @@
-import PieceType from '../pieceType'
-import ChessContext from '../chessContext'
-import Square from '../../pointlike/square'
-import Vector from '../../pointlike/vector'
-import {searchForObstaclesLinearly} from '../../chessc'
-import Piece from '../piece'
-import {CheckData} from "../../board/checkData";
+import PieceType from '../pieceType.ts'
+import ChessContext from '../chessContext.ts'
+import Square from '../../pointlike/square.ts'
+import Vector from '../../pointlike/vector.ts'
+import {searchForObstaclesLinearly} from '../../chessc.ts'
+import Piece from '../piece.ts'
+import {CheckData} from "../../board/checkData.ts";
 
 /**
  * Purpose of this class is acting like a PieceType. However, it adds

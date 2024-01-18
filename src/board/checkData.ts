@@ -1,9 +1,9 @@
-import {MoveListener} from "./moveListener";
-import Color from "../color";
-import Util from "../util";
-import Move from "../game/move";
-import Piece from "../pieces/piece";
-import Board from "./board";
+import {MoveListener} from "./moveListener.ts";
+import Color from "../color.ts";
+import Util from "../util.ts";
+import Move from "../game/move.ts";
+import Piece from "../pieces/piece.ts";
+import Board from "./board.ts";
 
 export class CheckData implements MoveListener {
     private _color: Color | null = null;

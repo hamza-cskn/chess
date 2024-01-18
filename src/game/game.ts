@@ -1,6 +1,6 @@
-import Color from '../color'
-import GameManager from './gameManager'
-import Move from './move'
+import Color from '../color.ts'
+import GameManager from './gameManager.ts'
+import Move from './move.ts'
 
 export default class Game {
     manager: GameManager

@@ -1,8 +1,8 @@
-import PieceType from './pieceType'
-import Square from '../pointlike/square'
-import {areThereObstaclesLinearly, perpendicularIteration} from '../chessc'
-import ChessContext from './chessContext'
-import Vector from '../pointlike/vector'
+import PieceType from './pieceType.ts'
+import Square from '../pointlike/square.ts'
+import {areThereObstaclesLinearly, perpendicularIteration} from '../chessc.ts'
+import ChessContext from './chessContext.ts'
+import Vector from '../pointlike/vector.ts'
 
 class Rook implements PieceType {
     public static readonly instance: Rook = new Rook()

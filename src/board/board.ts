@@ -1,12 +1,12 @@
-import Square from '../pointlike/square'
-import Piece from '../pieces/piece'
-import Color from '../color'
-import Move from '../game/move'
-import {MoveListener} from "./moveListener";
-import {KingData} from "./kingData";
-import {MoveData} from "./moveData";
-import {EnPassantData} from "./enPassantData";
-import {CheckData} from "./checkData";
+import Square from '../pointlike/square.ts'
+import Piece from '../pieces/piece.ts'
+import Color from '../color.ts'
+import Move from '../game/move.ts'
+import {MoveListener} from "./moveListener.ts";
+import {KingData} from "./kingData.ts";
+import {MoveData} from "./moveData.ts";
+import {EnPassantData} from "./enPassantData.ts";
+import {CheckData} from "./checkData.ts";
 
 export default class Board {
     private readonly _board: Map<number, Piece>

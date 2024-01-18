@@ -1,6 +1,6 @@
-import Square from './pointlike/square'
-import ChessContext from './pieces/chessContext'
-import Vector from './pointlike/vector'
+import Square from './pointlike/square.ts'
+import ChessContext from './pieces/chessContext.ts'
+import Vector from './pointlike/vector.ts'
 
 function perpendicularIteration(context: ChessContext): Square[] {
     const result: Square[] = []

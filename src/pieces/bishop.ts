@@ -1,8 +1,8 @@
-import PieceType from './pieceType'
-import Square from '../pointlike/square'
-import {areThereObstaclesLinearly, crossIteration} from '../chessc'
-import ChessContext from './chessContext'
-import Vector from '../pointlike/vector'
+import PieceType from './pieceType.ts'
+import Square from '../pointlike/square.ts'
+import {areThereObstaclesLinearly, crossIteration} from '../chessc.ts'
+import ChessContext from './chessContext.ts'
+import Vector from '../pointlike/vector.ts'
 
 class Bishop implements PieceType {
     public static readonly instance: Bishop = new Bishop()

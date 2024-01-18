@@ -1,8 +1,8 @@
-import Move from "../game/move";
-import {MoveListener} from "./moveListener";
-import Color from "../color";
-import Board from "./board";
-import Piece from "../pieces/piece";
+import Move from "../game/move.ts";
+import {MoveListener} from "./moveListener.ts";
+import Color from "../color.ts";
+import Board from "./board.ts";
+import Piece from "../pieces/piece.ts";
 
 export class EnPassantData implements MoveListener {
     private _move: Move | null = null;

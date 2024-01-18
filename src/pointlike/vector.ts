@@ -1,4 +1,4 @@
-import Pointlike from './pointlike'
+import Pointlike from './pointlike.ts'
 
 class Vector implements Pointlike {
     x: number

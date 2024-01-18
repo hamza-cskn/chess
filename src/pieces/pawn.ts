@@ -1,10 +1,10 @@
-import PieceType from './pieceType'
-import Square from '../pointlike/square'
-import Color from '../color'
-import ChessContext from './chessContext'
-import Vector from '../pointlike/vector'
-import {areThereObstaclesLinearly} from '../chessc'
-import Piece from './piece'
+import PieceType from './pieceType.ts'
+import Square from '../pointlike/square.ts'
+import Color from '../color.ts'
+import ChessContext from './chessContext.ts'
+import Vector from '../pointlike/vector.ts'
+import {areThereObstaclesLinearly} from '../chessc.ts'
+import Piece from './piece.ts'
 
 class Pawn implements PieceType {
     public static readonly instance: Pawn = new Pawn()
