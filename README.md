@@ -97,8 +97,8 @@ If the scenario has passed pre-conditions, this method must verify the movement.
 In this example, firstly c5 square will be checked. secondly, d5 will be ignored because it is the piece that will be moved. thirdly e5, and in the end, the iteration will be stopped at f5 because we hit a piece. If our king is in range of the piece we hit, then we can say our rook is not able to move to d7.
 
 ## Todo
-[ ] Fix [this scenario](https://github.com/hamza-cskn/chess/assets/36128276/2799b389-222f-4d48-bbee-ce25a24bb453)
-[ ] Add GitHub Actions workflow for tests.
-[ ] Configure NPM to run the project instead of using ugly deno... cmd.
+- [ ] Fix [this scenario](https://github.com/hamza-cskn/chess/assets/36128276/2799b389-222f-4d48-bbee-ce25a24bb453)
+- [ ] Add GitHub Actions workflow for tests.
+- [ ] Configure NPM to run the project instead of using ugly deno... cmd.
 
 
