@@ -1,5 +1,5 @@
 # chess
-Well-optimized chess move validation engine. (under development)
+Well-optimized chess move validation engine. (not completed)
 
 ## CLI implementation
 
